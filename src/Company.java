@@ -12,6 +12,8 @@ public class Company {
 		new Employee("Engineering", "Measure, Mary"),
 		new Employee("Engineering", "Amount, Anastasia"),
 		new Employee("Engineering", "Ratio, Ringo"),
+		new Employee("Support", "Measure, Mary"),
+		new Employee("Support", "Amount, Anastasia"),
 		new Employee("Support", "Rate, Rhoda"), };
 	final Set set = new TreeSet(Arrays.asList(emps));
 	System.out.println(set);
